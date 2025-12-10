@@ -8,4 +8,6 @@ http://medbuddypill.atwebpages.com/searchProduct.php/?pid=101
 
 http://medbuddypill.atwebpages.com/Delete.php/?pid=102
 
+flutter build web
 
+flutter build web --release
