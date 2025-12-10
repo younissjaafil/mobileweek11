@@ -9,7 +9,7 @@ class DeleteProduct {
   // Function to delete a product by pid
   static Future<bool> deleteProduct(int pid) async {
     try {
-      final url = Uri.https(_baseURL, 'Delete.php', {'pid': '$pid'});
+      final url = Uri.http(_baseURL, 'Delete.php', {'pid': '$pid'});
 
       final response = await http.get(url);
 

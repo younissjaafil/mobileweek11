@@ -14,7 +14,7 @@ class AddProduct {
     required int categoryId,
   }) async {
     try {
-      final url = Uri.https(_baseURL, 'add.php', {
+      final url = Uri.http(_baseURL, 'add.php', {
         'name': name,
         'quantity': '$quantity',
         'price': '$price',
