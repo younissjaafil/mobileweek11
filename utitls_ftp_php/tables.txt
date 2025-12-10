@@ -1,0 +1,25 @@
+CREATE TABLE categories (
+  cid numeric(8) primary key,
+  name varchar(50) NOT NULL
+);
+
+INSERT INTO categories VALUES
+(1, 'drinks'),
+(2, 'cheese'),
+(3, 'cosmatics'),
+(4, 'electronics');
+
+CREATE TABLE products (
+  pid numeric(8) primary key,
+  name varchar(100) COLLATE utf8_unicode_ci NOT NULL,
+  quantity int(11) NOT NULL,
+  price decimal(10,2) NOT NULL,
+  cid numeric(8),
+  foreign key(cid) references categories(cid)
+);
+
+INSERT INTO products VALUES
+(101, 'maccaw', 100, 6000, 1),
+(102, 'iced tea', 90, 3000, 1),
+(103, 'led light', 20, 20000, 4),
+(104, 'tooth paste', 80, 10000, 3);
