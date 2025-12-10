@@ -23750,7 +23750,7 @@ Ue(a,b,c,d){return A.axX(a,b,c,d)},
 axX(a,b,c,d){var s=0,r=A.R(t.y),q,p=2,o=[],n,m,l,k,j,i,h
 var $async$Ue=A.S(function(e,f){if(e===1){o.push(f)
 s=p}while(true)switch(s){case 0:p=4
-n=A.S9("http","medbuddypill.atwebpages.com","add.php",A.aq(["name",b,"quantity",""+d,"price",A.m(c),"cid",""+a],t.N,t.z))
+n=A.S9("https","medbuddypill.atwebpages.com","add.php",A.aq(["name",b,"quantity",""+d,"price",A.m(c),"cid",""+a],t.N,t.z))
 s=7
 return A.U(A.TB(n).py(B.fl),$async$Ue)
 case 7:m=f
@@ -23800,7 +23800,7 @@ Wy(a){return A.az4(a)},
 az4(a){var s=0,r=A.R(t.y),q,p=2,o=[],n,m,l,k,j,i,h
 var $async$Wy=A.S(function(b,c){if(b===1){o.push(c)
 s=p}while(true)switch(s){case 0:p=4
-n=A.S9("http","medbuddypill.atwebpages.com","Delete.php",A.aq(["pid",""+a],t.N,t.z))
+n=A.S9("https","medbuddypill.atwebpages.com","Delete.php",A.aq(["pid",""+a],t.N,t.z))
 s=7
 return A.U(A.TB(n),$async$Wy)
 case 7:m=c
@@ -23841,7 +23841,7 @@ Xl(a,b,c,d,e){return A.azB(a,b,c,d,e)},
 azB(a,b,c,d,e){var s=0,r=A.R(t.y),q,p=2,o=[],n,m,l,k,j,i,h
 var $async$Xl=A.S(function(f,g){if(f===1){o.push(g)
 s=p}while(true)switch(s){case 0:p=4
-n=A.S9("http","medbuddypill.atwebpages.com","edit.php",A.aq(["pid",""+c,"name",b,"quantity",""+e,"price",A.m(d),"cid",""+a],t.N,t.z))
+n=A.S9("https","medbuddypill.atwebpages.com","edit.php",A.aq(["pid",""+c,"name",b,"quantity",""+e,"price",A.m(d),"cid",""+a],t.N,t.z))
 s=7
 return A.U(A.TB(n).py(B.fl),$async$Xl)
 case 7:m=g
@@ -23956,7 +23956,7 @@ pk(a){return A.aJ3(a)},
 aJ3(a){var s=0,r=A.R(t.H),q=1,p=[],o,n,m,l,k,j,i,h
 var $async$pk=A.S(function(b,c){if(b===1){p.push(c)
 s=q}while(true)switch(s){case 0:q=3
-o=A.S9("http","medbuddypill.atwebpages.com","getProducts.php",null)
+o=A.S9("https","medbuddypill.atwebpages.com","getProducts.php",null)
 s=6
 return A.U(A.TB(o).py(B.fl),$async$pk)
 case 6:n=c

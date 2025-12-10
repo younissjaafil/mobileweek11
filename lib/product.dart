@@ -28,7 +28,7 @@ List<Product> _products = [];
 // asynchronously update _products list
 void updateProducts(Function(bool success) update) async {
   try {
-    final url = Uri.http(_baseURL, 'getProducts.php');
+    final url = Uri.https(_baseURL, 'getProducts.php');
     final response = await http
         .get(url)
         .timeout(const Duration(seconds: 5)); // max timeout 5 seconds

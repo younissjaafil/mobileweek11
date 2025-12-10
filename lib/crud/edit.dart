@@ -15,7 +15,7 @@ class EditProduct {
     required int categoryId,
   }) async {
     try {
-      final url = Uri.http(_baseURL, 'edit.php', {
+      final url = Uri.https(_baseURL, 'edit.php', {
         'pid': '$pid',
         'name': name,
         'quantity': '$quantity',
